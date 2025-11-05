@@ -1,0 +1,150 @@
+═══════════════════════════════════════════════════════════════════════════
+    INSTRUCTIONS DE PORTABILITÉ - CNIM BABCOCK MAROC
+    Comment déplacer l'application vers un autre PC sans perdre vos données
+═══════════════════════════════════════════════════════════════════════════
+
+📌 IMPORTANT À COMPRENDRE :
+
+Les données sont sauvegardées de 2 manières :
+
+1. localStorage (Automatique) ⚡
+   ❌ NON PORTABLE vers un autre PC
+   ❌ NON PORTABLE vers un autre navigateur
+   ✅ Sauvegarde automatique
+
+2. Fichier JSON (Manuel) 💾
+   ✅ 100% PORTABLE vers n'importe quel PC
+   ✅ Sauvegarde permanente
+   ❌ Nécessite export manuel
+
+
+═══════════════════════════════════════════════════════════════════════════
+    PROCÉDURE DE DÉPLACEMENT VERS UN AUTRE PC
+═══════════════════════════════════════════════════════════════════════════
+
+ÉTAPE 1 : EXPORTER LES DONNÉES (sur le PC actuel) 📤
+────────────────────────────────────────────────────────────────────────────
+
+1. Ouvrez app.html
+2. Connectez-vous (ex: marouan.eljerrari@paprec.com / 123456789)
+3. Cliquez sur l'onglet "Paramètres" ⚙️
+4. Cliquez sur le bouton "📥 Exporter JSON"
+5. Un fichier sera téléchargé dans "Téléchargements"
+   Nom : CNIM_Donnees_2025-XX-XX.json
+6. IMPORTANT : Notez bien où se trouve ce fichier !
+
+
+ÉTAPE 2 : COPIER LES FICHIERS 📁
+────────────────────────────────────────────────────────────────────────────
+
+Copiez TOUT le dossier "Pointages" vers le nouveau PC :
+
+Contenu du dossier :
+  📁 Pointages/
+     ├── app.html                     ← Fichier principal de l'application
+     ├── CNIM_Donnees_XXXX.json       ← Votre fichier exporté (copiez-le ici)
+     ├── INSTRUCTIONS_PORTABILITE.txt ← Ce fichier
+     └── autres fichiers...
+
+Méthodes de copie :
+  • Clé USB
+  • Réseau local
+  • Cloud (OneDrive, Google Drive)
+  • Email (si pas trop volumineux)
+
+
+ÉTAPE 3 : IMPORTER LES DONNÉES (sur le nouveau PC) 📥
+────────────────────────────────────────────────────────────────────────────
+
+1. Sur le nouveau PC, ouvrez le dossier "Pointages"
+2. Double-cliquez sur "app.html"
+3. Connectez-vous avec vos identifiants
+4. Allez dans "Paramètres" ⚙️
+5. Cliquez sur "📤 Importer"
+6. Sélectionnez le fichier JSON que vous avez copié
+7. Confirmez l'importation
+8. ✅ Toutes vos données sont restaurées !
+
+
+ÉTAPE 4 : VÉRIFICATION ✓
+────────────────────────────────────────────────────────────────────────────
+
+Vérifiez que tout est présent :
+
+□ Onglet "Vue d'ensemble" : Nombre de projets, tâches
+□ Onglet "Agents" : Liste complète des agents
+□ Onglet "Pointage" : Historique des pointages
+□ Onglet "Planning" : Gantt avec toutes les tâches
+
+
+═══════════════════════════════════════════════════════════════════════════
+    BONNES PRATIQUES
+═══════════════════════════════════════════════════════════════════════════
+
+📅 EXPORTEZ RÉGULIÈREMENT :
+   • Quotidien : Si vous modifiez beaucoup de données
+   • Hebdomadaire : Pour une utilisation normale
+   • Avant toute manipulation importante
+
+📝 GARDEZ PLUSIEURS SAUVEGARDES :
+   Créez un dossier "Sauvegardes" dans "Pointages" :
+   
+   📁 Pointages/
+      └── 📁 Sauvegardes/
+          ├── CNIM_Donnees_2025-01-15.json
+          ├── CNIM_Donnees_2025-01-22.json
+          └── CNIM_Donnees_2025-02-01.json
+
+
+═══════════════════════════════════════════════════════════════════════════
+    DÉPANNAGE
+═══════════════════════════════════════════════════════════════════════════
+
+PROBLÈME : "Fichier JSON invalide"
+SOLUTION : Vérifiez que le fichier n'est pas corrompu, réessayez l'export
+
+PROBLÈME : "Données manquantes après import"
+SOLUTION : Importez un autre fichier de sauvegarde (plus récent)
+
+PROBLÈME : "localStorage plein"
+SOLUTION : Exportez en JSON, nettoyez le localStorage, réimportez
+
+
+═══════════════════════════════════════════════════════════════════════════
+    CHECKLIST DE MIGRATION
+═══════════════════════════════════════════════════════════════════════════
+
+AVANT DE PARTIR (PC Source) :
+□ Exporter les données en JSON
+□ Vérifier que le fichier JSON est téléchargé
+□ Copier le dossier "Pointages" complet
+□ Copier le fichier JSON exporté dans le dossier
+
+SUR LE NOUVEAU PC (PC Destination) :
+□ Coller le dossier "Pointages"
+□ Ouvrir app.html
+□ Se connecter
+□ Importer le fichier JSON
+□ Vérifier que toutes les données sont présentes
+□ Tester l'ajout d'un pointage
+□ Exporter à nouveau pour créer une sauvegarde locale
+
+
+═══════════════════════════════════════════════════════════════════════════
+    RÉSUMÉ
+═══════════════════════════════════════════════════════════════════════════
+
+💾 localStorage = Automatique mais NON PORTABLE
+📦 Fichier JSON = Manuel mais 100% PORTABLE
+
+🎉 Avec cette méthode, vos données sont 100% PORTABLES et 100% SÉCURISÉES !
+
+💡 ASTUCE FINALE :
+   Exportez vos données régulièrement, même si vous ne changez pas de PC.
+   C'est votre ASSURANCE contre la perte de données !
+
+
+═══════════════════════════════════════════════════════════════════════════
+CNIM BABCOCK MAROC - Département Méthodes
+Version : 1.0 | Date : 2025-01-15
+═══════════════════════════════════════════════════════════════════════════

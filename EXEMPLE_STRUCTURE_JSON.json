@@ -1,0 +1,44 @@
+{
+  "agents": [
+    {
+      "id": 1,
+      "nom": "Ahmed BENALI",
+      "fonction": "Ingénieur Méthode Senior",
+      "email": "ahmed.benali@cnim.ma"
+    }
+  ],
+  "sousTaches": [
+    {
+      "id": 1001,
+      "numAffaire": "CNIM-2025-001",
+      "annee": "2025",
+      "client": "OCP Youssoufia",
+      "designation": "Chaudière Biomasse 50 MW",
+      "nom": "Étude de faisabilité technique",
+      "typeDossier": "Étude",
+      "agentId": 4,
+      "budgetHeures": 120,
+      "budgetEuros": 18000,
+      "dateDebut": "2025-01-15",
+      "dateFin": "2025-02-28",
+      "priorite": "haute",
+      "statut": "termine",
+      "dateCreation": "2025-01-10T08:00:00"
+    }
+  ],
+  "pointages": [
+    {
+      "id": 1,
+      "agentId": 4,
+      "sousTacheId": 1001,
+      "date": "2025-01-15",
+      "heures": 8,
+      "description": "Analyse technique initiale"
+    }
+  ],
+  "dependances": [],
+  "baseline": null,
+  "version": "2.0",
+  "dateModification": "2025-01-15T10:30:00.000Z",
+  "application": "CNIM BABCOCK MAROC - Département Méthodes"
+}
